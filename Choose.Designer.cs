@@ -50,6 +50,7 @@
             btnUser.TabIndex = 1;
             btnUser.Text = "User";
             btnUser.UseVisualStyleBackColor = true;
+            btnUser.Click += btnUser_Click;
             // 
             // Choose
             // 
