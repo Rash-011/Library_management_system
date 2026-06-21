@@ -41,7 +41,6 @@
             book_title = new DataGridViewTextBoxColumn();
             author_name = new DataGridViewTextBoxColumn();
             Column1 = new DataGridViewButtonColumn();
-            btnView = new DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)btnSearch).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -104,7 +103,7 @@
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { book_id, language, isbn, book_title, author_name, Column1, btnView });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { book_id, language, isbn, book_title, author_name, Column1 });
             dataGridView1.GridColor = SystemColors.InactiveCaption;
             dataGridView1.Location = new Point(0, 144);
             dataGridView1.Name = "dataGridView1";
@@ -156,15 +155,6 @@
             Column1.MinimumWidth = 6;
             Column1.Name = "Column1";
             // 
-            // btnView
-            // 
-            btnView.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            btnView.HeaderText = "";
-            btnView.Image = (Image)resources.GetObject("btnView.Image");
-            btnView.MinimumWidth = 6;
-            btnView.Name = "btnView";
-            btnView.Width = 24;
-            // 
             // OverdueBooks
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -199,6 +189,5 @@
         private DataGridViewTextBoxColumn book_title;
         private DataGridViewTextBoxColumn author_name;
         private DataGridViewButtonColumn Column1;
-        private DataGridViewImageColumn btnView;
     }
 }

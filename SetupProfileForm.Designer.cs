@@ -54,8 +54,10 @@
             // 
             // txtFullName
             // 
+            txtFullName.BackColor = Color.FromArgb(239, 229, 255);
             txtFullName.Location = new Point(55, 258);
             txtFullName.Name = "txtFullName";
+            txtFullName.PlaceholderText = "Rasika Prabath";
             txtFullName.Size = new Size(316, 27);
             txtFullName.TabIndex = 35;
             // 
@@ -72,8 +74,10 @@
             // 
             // textBox2
             // 
+            textBox2.BackColor = Color.FromArgb(239, 229, 255);
             textBox2.Location = new Point(55, 334);
             textBox2.Name = "textBox2";
+            textBox2.PlaceholderText = "Rasika123";
             textBox2.Size = new Size(316, 27);
             textBox2.TabIndex = 37;
             // 
@@ -90,8 +94,10 @@
             // 
             // textBox3
             // 
+            textBox3.BackColor = Color.FromArgb(239, 229, 255);
             textBox3.Location = new Point(55, 419);
             textBox3.Name = "textBox3";
+            textBox3.PlaceholderText = "Enter-6-digit password";
             textBox3.Size = new Size(316, 27);
             textBox3.TabIndex = 39;
             // 
@@ -108,8 +114,10 @@
             // 
             // textBox4
             // 
+            textBox4.BackColor = Color.FromArgb(239, 229, 255);
             textBox4.Location = new Point(55, 508);
             textBox4.Name = "textBox4";
+            textBox4.PlaceholderText = "Re-enter password";
             textBox4.Size = new Size(316, 27);
             textBox4.TabIndex = 41;
             // 
@@ -126,11 +134,12 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(0, 254, 72);
+            button1.BackColor = Color.FromArgb(72, 46, 126);
             button1.Cursor = Cursors.Hand;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
             button1.Location = new Point(55, 570);
             button1.Name = "button1";
             button1.Size = new Size(316, 55);

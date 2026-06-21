@@ -44,7 +44,6 @@
             Column7 = new DataGridViewTextBoxColumn();
             Column8 = new DataGridViewTextBoxColumn();
             Column9 = new DataGridViewButtonColumn();
-            edit = new DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -75,9 +74,9 @@
             label2.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(12, 42);
             label2.Name = "label2";
-            label2.Size = new Size(292, 18);
+            label2.Size = new Size(267, 18);
             label2.TabIndex = 6;
-            label2.Text = "Add, edit or remove books from catelog.";
+            label2.Text = "All running active loans appear here.\r\n";
             // 
             // label1
             // 
@@ -108,7 +107,7 @@
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6, Column7, Column8, Column9, edit });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6, Column7, Column8, Column9 });
             dataGridView1.GridColor = SystemColors.InactiveCaption;
             dataGridView1.Location = new Point(0, 144);
             dataGridView1.Name = "dataGridView1";
@@ -190,15 +189,6 @@
             Column9.MinimumWidth = 6;
             Column9.Name = "Column9";
             // 
-            // edit
-            // 
-            edit.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            edit.HeaderText = "";
-            edit.Image = (Image)resources.GetObject("edit.Image");
-            edit.MinimumWidth = 6;
-            edit.Name = "edit";
-            edit.Width = 24;
-            // 
             // ActiveLoans
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -236,6 +226,5 @@
         private DataGridViewTextBoxColumn Column7;
         private DataGridViewTextBoxColumn Column8;
         private DataGridViewButtonColumn Column9;
-        private DataGridViewImageColumn edit;
     }
 }

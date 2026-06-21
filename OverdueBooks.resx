@@ -131,13 +131,4 @@
   <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="btnView.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAANxJREFUSEvl
-        ldENwjAMRG8kRmCDjgQjsAFsAhvABrAJ6KRGqq6X2EoqIcGT3o/rOorrpMC/sgNwAHAVGeOzYfYAngDe
-        gcxhbhcXUzDyrEUiHqZI1rsWq9GzEzXcGfusL6mnWY2rzW/2Mi+oBY2r1RZyTDXZOc1q3GlH/2gSR2XN
-        FTeTOCprrsguxHZk2zy0UEHjzu8ulB2GgsaddhiyfS9o3GnHm2x5YHlfVslcQeVfpHG1eQWRLS5V1kgx
-        8ptotszRs7P0ThT2ObM75oTfJAPHlGeCB3ApY9UR/m0+NJ9c6GpOWsoAAAAASUVORK5CYII=
-</value>
-  </data>
 </root>
