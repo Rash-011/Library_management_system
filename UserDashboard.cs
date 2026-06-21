@@ -272,7 +272,7 @@ namespace Library_management_system
         {
             UserSession.Clear();
             this.Close();
-            Login loginAfterLogOut = new Login();
+            UserLogin loginAfterLogOut = new UserLogin();
             loginAfterLogOut.Show();
         }
 

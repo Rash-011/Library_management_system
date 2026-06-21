@@ -79,7 +79,7 @@ namespace Library_management_system
                     MessageBox.Show("Profile setup complete! Please log in with your new credentials.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     // 3. Send them BACK to the Login Form to prove they know the new credentials
-                    Login loginForm = new Login();
+                    UserLogin loginForm = new UserLogin();
                     loginForm.FormClosed += (s, args) => Application.Exit();
                     loginForm.Show();
                     this.Hide();

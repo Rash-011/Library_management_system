@@ -19,7 +19,7 @@ namespace Library_management_system
             {
                 timer1.Stop();
 
-                Login loginform = new Login();
+                UserLogin loginform = new UserLogin();
                 loginform.Show();
                 this.Hide();
 
