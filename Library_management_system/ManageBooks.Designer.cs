@@ -53,6 +53,7 @@ namespace Library_management_system
             // 
             // panel1
             // 
+            panel1.BackColor = Color.FromArgb(158, 161, 212);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(textBox1);
             panel1.Controls.Add(button1);
@@ -124,7 +125,7 @@ namespace Library_management_system
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { book_id, isbn, book_title, author_name, category, language, status, btnView, btnUpdate, btnDelete });
             dataGridView1.GridColor = SystemColors.InactiveCaption;
-            dataGridView1.Location = new Point(0, 142);
+            dataGridView1.Location = new Point(0, 146);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(1096, 538);
@@ -214,8 +215,8 @@ namespace Library_management_system
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1096, 679);
-            Controls.Add(dataGridView1);
             Controls.Add(panel1);
+            Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "ManageBooks";
             Text = "ManageBooks";

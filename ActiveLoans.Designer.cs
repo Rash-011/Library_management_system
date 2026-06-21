@@ -51,6 +51,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.FromArgb(158, 161, 212);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(1043, 99);
             pictureBox1.Name = "pictureBox1";
@@ -70,6 +71,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(158, 161, 212);
             label2.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(12, 42);
             label2.Name = "label2";
@@ -80,6 +82,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(158, 161, 212);
             label1.Font = new Font("Poppins Medium", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(12, 2);
             label1.Name = "label1";
@@ -89,7 +92,9 @@
             // 
             // flowLayoutPanel1
             // 
+            flowLayoutPanel1.BackColor = Color.FromArgb(158, 161, 212);
             flowLayoutPanel1.Dock = DockStyle.Top;
+            flowLayoutPanel1.ForeColor = Color.FromArgb(158, 161, 212);
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(1096, 145);
@@ -127,7 +132,7 @@
             Column2.HeaderText = "Member ID";
             Column2.MinimumWidth = 6;
             Column2.Name = "Column2";
-            Column2.Width = 113;
+            Column2.Width = 104;
             // 
             // Column3
             // 
@@ -136,7 +141,7 @@
             Column3.HeaderText = "Book ID";
             Column3.MinimumWidth = 6;
             Column3.Name = "Column3";
-            Column3.Width = 91;
+            Column3.Width = 84;
             // 
             // Column4
             // 
@@ -169,7 +174,7 @@
             Column7.HeaderText = "No of Due days";
             Column7.MinimumWidth = 6;
             Column7.Name = "Column7";
-            Column7.Width = 141;
+            Column7.Width = 102;
             // 
             // Column8
             // 
@@ -199,12 +204,12 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1096, 679);
-            Controls.Add(dataGridView1);
             Controls.Add(pictureBox1);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(flowLayoutPanel1);
+            Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "ActiveLoans";
             Text = "ActiveLoans";

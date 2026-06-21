@@ -5,6 +5,8 @@ namespace Library_management_system
         public Dashboard()
         {
             InitializeComponent();
+            loadFormInPanel(new HomeSummaryForm());
+
         }
         private void loadFormInPanel(Form childForm)
         {
@@ -61,6 +63,33 @@ namespace Library_management_system
         private void btnOverdue_Click(object sender, EventArgs e)
         {
             loadFormInPanel(new ReturnBook());
+        }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            loadFormInPanel(new OverdueBooks());
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            loadFormInPanel(new HomeSummaryForm());
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            // 1. Double-check that they actually want to log out
+            DialogResult result = MessageBox.Show("Are you sure you want to log out?", "Log Out", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                // 2. Instantly flushes memory and restarts the app at the Login screen!
+                Application.Exit();
+            }
         }
     }
 }

@@ -52,6 +52,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.FromArgb(158, 161, 212);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(1043, 99);
             pictureBox1.Name = "pictureBox1";
@@ -82,6 +83,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(158, 161, 212);
             label2.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(12, 42);
             label2.Name = "label2";
@@ -92,6 +94,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(158, 161, 212);
             label1.Font = new Font("Poppins Medium", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(12, 2);
             label1.Name = "label1";
@@ -101,6 +104,7 @@
             // 
             // flowLayoutPanel1
             // 
+            flowLayoutPanel1.BackColor = Color.FromArgb(158, 161, 212);
             flowLayoutPanel1.Dock = DockStyle.Top;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -131,7 +135,7 @@
             Column1.HeaderText = "Member ID";
             Column1.MinimumWidth = 6;
             Column1.Name = "Column1";
-            Column1.Width = 113;
+            Column1.Width = 104;
             // 
             // Column2
             // 
