@@ -80,7 +80,7 @@ namespace Library_management_system
                 // Figure out the exact name of the column the user clicked
                 string clickedColumn = dataGridView1.Columns[e.ColumnIndex].Name;
 
-                // --- BUTTON 1: VIEW BOOK INFO ---
+                // BUTTON 1: VIEW BOOK INFO 
                 if (clickedColumn == "btnView")
                 {
                     // 1. Create the View form and pass the specific Book ID to it
@@ -95,7 +95,7 @@ namespace Library_management_system
                     // TODO: Implement ViewBookForm to display full book details
                 }
 
-                // --- BUTTON 2: UPDATE BOOK ---
+                //  BUTTON 2: UPDATE BOOK 
                 else if (clickedColumn == "btnUpdate")
                 {
                     try
@@ -110,7 +110,7 @@ namespace Library_management_system
                     }
                 }
 
-                // --- BUTTON 3: DELETE BOOK ---
+                //  BUTTON 3: DELETE BOOK 
                 else if (clickedColumn == "btnDelete")
                 {
                     DialogResult dialogResult = MessageBox.Show(

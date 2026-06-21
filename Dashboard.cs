@@ -87,7 +87,6 @@ namespace Library_management_system
 
             if (result == DialogResult.Yes)
             {
-                // 2. Instantly flushes memory and restarts the app at the Login screen!
                 Application.Exit();
             }
         }

@@ -5,7 +5,7 @@ using MySql.Data.MySqlClient;
 
 namespace Library_management_system
 {
-    public partial class ActiveLoans : Form // Ensure this matches your form name
+    public partial class ActiveLoans : Form // Ensure this matches form name
     {
         private string connectionString = "server=localhost;user=root;password=;database=library_db;";
 
@@ -76,8 +76,5 @@ namespace Library_management_system
             }
         }
 
-        // --- YOUR RETURN BUTTON ---
-        // If you add the "Return Book" button code we wrote earlier to this form, 
-        // make sure you call LoadActiveLoans(); at the very end of it so the table refreshes!
     }
 }
