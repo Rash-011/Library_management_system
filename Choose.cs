@@ -17,7 +17,8 @@ namespace Library_management_system
 
         private void btnAdmin_Click(object sender, EventArgs e)
         {
-            Login loginForm = new Login();
+            
+            UserLogin loginForm = new UserLogin();
             loginForm.Show();
             this.Close();
 
@@ -26,6 +27,13 @@ namespace Library_management_system
         private void btnUser_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
+            UserLogin userLogin = new UserLogin();
+            userLogin.Show();
+            this.Hide();
         }
     }
 }

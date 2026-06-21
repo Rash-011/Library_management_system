@@ -19,8 +19,8 @@ namespace Library_management_system
             {
                 timer1.Stop();
 
-                Choose chooseForm = new Choose();
-                chooseForm.Show();
+                UserLogin loginform = new UserLogin();
+                loginform.Show();
                 this.Hide();
 
             }

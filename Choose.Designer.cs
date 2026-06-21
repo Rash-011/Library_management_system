@@ -34,9 +34,10 @@
             // 
             // btnAdmin
             // 
-            btnAdmin.Location = new Point(111, 159);
+            btnAdmin.Location = new Point(97, 119);
+            btnAdmin.Margin = new Padding(3, 2, 3, 2);
             btnAdmin.Name = "btnAdmin";
-            btnAdmin.Size = new Size(156, 46);
+            btnAdmin.Size = new Size(136, 34);
             btnAdmin.TabIndex = 0;
             btnAdmin.Text = "Admin";
             btnAdmin.UseVisualStyleBackColor = true;
@@ -44,9 +45,10 @@
             // 
             // btnUser
             // 
-            btnUser.Location = new Point(111, 240);
+            btnUser.Location = new Point(97, 180);
+            btnUser.Margin = new Padding(3, 2, 3, 2);
             btnUser.Name = "btnUser";
-            btnUser.Size = new Size(156, 46);
+            btnUser.Size = new Size(136, 34);
             btnUser.TabIndex = 1;
             btnUser.Text = "User";
             btnUser.UseVisualStyleBackColor = true;
@@ -54,12 +56,13 @@
             // 
             // Choose
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(430, 450);
+            ClientSize = new Size(376, 338);
             Controls.Add(btnUser);
             Controls.Add(btnAdmin);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Choose";
             Text = "Choose";
             ResumeLayout(false);

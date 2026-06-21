@@ -73,5 +73,10 @@ namespace Library_management_system
             // The exact second the popup closes, refresh the table to show the new record and updated available copies!
             LoadIssuedBooksData();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

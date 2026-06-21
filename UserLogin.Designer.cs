@@ -1,6 +1,6 @@
 ﻿namespace Library_management_system
 {
-    partial class Login
+    partial class UserLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserLogin));
             pictureBox1 = new PictureBox();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
@@ -48,9 +48,10 @@
             // 
             pictureBox1.Dock = DockStyle.Right;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(495, 0);
+            pictureBox1.Location = new Point(433, 0);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(489, 587);
+            pictureBox1.Size = new Size(428, 440);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -60,11 +61,12 @@
             // 
             textBox1.BackColor = Color.FromArgb(28, 29, 33);
             textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Roboto", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox1.Font = new Font("Microsoft Sans Serif", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.White;
-            textBox1.Location = new Point(62, 81);
+            textBox1.Location = new Point(54, 61);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 57);
+            textBox1.Size = new Size(109, 43);
             textBox1.TabIndex = 1;
             textBox1.Text = "Login";
             // 
@@ -74,9 +76,10 @@
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Sans Serif Collection", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox2.ForeColor = Color.White;
-            textBox2.Location = new Point(62, 132);
+            textBox2.Location = new Point(54, 99);
+            textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(180, 40);
+            textBox2.Size = new Size(158, 32);
             textBox2.TabIndex = 2;
             textBox2.Text = "Enter your account details\r\n\r\n";
             // 
@@ -86,9 +89,10 @@
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Font = new Font("Sans Serif Collection", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox3.ForeColor = Color.White;
-            textBox3.Location = new Point(62, 178);
+            textBox3.Location = new Point(54, 134);
+            textBox3.Margin = new Padding(3, 2, 3, 2);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(107, 48);
+            textBox3.Size = new Size(94, 39);
             textBox3.TabIndex = 3;
             textBox3.Text = "Username";
             // 
@@ -98,9 +102,10 @@
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Font = new Font("Sans Serif Collection", 7.799999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox4.ForeColor = Color.White;
-            textBox4.Location = new Point(62, 491);
+            textBox4.Location = new Point(54, 368);
+            textBox4.Margin = new Padding(3, 2, 3, 2);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(170, 35);
+            textBox4.Size = new Size(149, 28);
             textBox4.TabIndex = 4;
             textBox4.Text = "Don't you have an account?\r\n";
             // 
@@ -111,26 +116,29 @@
             fgtpassword.Cursor = Cursors.Hand;
             fgtpassword.Font = new Font("Sans Serif Collection", 7.799999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             fgtpassword.ForeColor = Color.White;
-            fgtpassword.Location = new Point(62, 326);
+            fgtpassword.Location = new Point(54, 244);
+            fgtpassword.Margin = new Padding(3, 2, 3, 2);
             fgtpassword.Name = "fgtpassword";
-            fgtpassword.Size = new Size(125, 35);
+            fgtpassword.Size = new Size(109, 28);
             fgtpassword.TabIndex = 5;
             fgtpassword.Text = "Forgot password?";
-            fgtpassword.TextChanged += fgtpassword_TextChanged;
+            fgtpassword.Click += fgtpassword_TextChanged;
             // 
             // username
             // 
-            username.Location = new Point(62, 219);
+            username.Location = new Point(54, 164);
+            username.Margin = new Padding(3, 2, 3, 2);
             username.Name = "username";
-            username.Size = new Size(284, 27);
+            username.Size = new Size(249, 23);
             username.TabIndex = 6;
             username.TextChanged += username_TextChanged;
             // 
             // password
             // 
-            password.Location = new Point(62, 293);
+            password.Location = new Point(54, 220);
+            password.Margin = new Padding(3, 2, 3, 2);
             password.Name = "password";
-            password.Size = new Size(284, 27);
+            password.Size = new Size(249, 23);
             password.TabIndex = 8;
             // 
             // textBox8
@@ -139,9 +147,10 @@
             textBox8.BorderStyle = BorderStyle.None;
             textBox8.Font = new Font("Sans Serif Collection", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox8.ForeColor = Color.White;
-            textBox8.Location = new Point(62, 252);
+            textBox8.Location = new Point(54, 189);
+            textBox8.Margin = new Padding(3, 2, 3, 2);
             textBox8.Name = "textBox8";
-            textBox8.Size = new Size(107, 48);
+            textBox8.Size = new Size(94, 39);
             textBox8.TabIndex = 7;
             textBox8.Text = "Password";
             // 
@@ -153,9 +162,10 @@
             loginbtn.FlatStyle = FlatStyle.Flat;
             loginbtn.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             loginbtn.ForeColor = Color.White;
-            loginbtn.Location = new Point(62, 381);
+            loginbtn.Location = new Point(54, 286);
+            loginbtn.Margin = new Padding(3, 2, 3, 2);
             loginbtn.Name = "loginbtn";
-            loginbtn.Size = new Size(284, 35);
+            loginbtn.Size = new Size(248, 26);
             loginbtn.TabIndex = 9;
             loginbtn.Text = "Login";
             loginbtn.UseVisualStyleBackColor = false;
@@ -169,9 +179,10 @@
             signupbtn.FlatStyle = FlatStyle.Flat;
             signupbtn.Font = new Font("Sans Serif Collection", 7.799999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             signupbtn.ForeColor = Color.White;
-            signupbtn.Location = new Point(273, 491);
+            signupbtn.Location = new Point(239, 368);
+            signupbtn.Margin = new Padding(3, 2, 3, 2);
             signupbtn.Name = "signupbtn";
-            signupbtn.Size = new Size(73, 35);
+            signupbtn.Size = new Size(64, 26);
             signupbtn.TabIndex = 10;
             signupbtn.Text = "Sign up";
             signupbtn.UseVisualStyleBackColor = false;
@@ -182,20 +193,21 @@
             showpassword.AutoSize = true;
             showpassword.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             showpassword.ForeColor = Color.White;
-            showpassword.Location = new Point(225, 332);
+            showpassword.Location = new Point(197, 249);
+            showpassword.Margin = new Padding(3, 2, 3, 2);
             showpassword.Name = "showpassword";
-            showpassword.Size = new Size(121, 21);
+            showpassword.Size = new Size(107, 17);
             showpassword.TabIndex = 11;
             showpassword.Text = "show password";
             showpassword.UseVisualStyleBackColor = true;
             showpassword.CheckedChanged += showpassword_CheckedChanged;
             // 
-            // Login
+            // UserLogin
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(28, 29, 33);
-            ClientSize = new Size(984, 587);
+            ClientSize = new Size(861, 440);
             Controls.Add(showpassword);
             Controls.Add(signupbtn);
             Controls.Add(loginbtn);
@@ -209,7 +221,8 @@
             Controls.Add(textBox2);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Login";
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "UserLogin";
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
