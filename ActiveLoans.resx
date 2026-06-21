@@ -155,16 +155,4 @@
   <metadata name="Column9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="edit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="edit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAACzSURBVEhL5ZTBDcIwFEM9SkdghI7CJrBBuxFs0FXYAORDLlZS7ARVIJ70Ts13oioO8M+sAG7i
-        ootcamF0A/BsyG+6njKryb0S1CuzmpwBXD8ks76DCcBlUGa8Za7879SThrbQwVQbHUy1Gbnmu9daOWwj
-        tloDXHdfBIWF0wBXztqw1RrgGr0II13irA0LpwGudlkLGuAaowGODw1x6OlS1KHCYRv1dCnqUIF94AkT
-        ow79Ni8VlR/GNu5+bAAAAABJRU5ErkJggg==
-</value>
-  </data>
 </root>

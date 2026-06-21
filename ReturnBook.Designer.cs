@@ -43,13 +43,13 @@
             Column5 = new DataGridViewTextBoxColumn();
             Column6 = new DataGridViewTextBoxColumn();
             Column7 = new DataGridViewButtonColumn();
-            edit = new DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.FromArgb(158, 161, 212);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(1043, 99);
             pictureBox1.Name = "pictureBox1";
@@ -80,6 +80,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(158, 161, 212);
             label2.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(12, 42);
             label2.Name = "label2";
@@ -90,6 +91,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(158, 161, 212);
             label1.Font = new Font("Poppins Medium", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(12, 2);
             label1.Name = "label1";
@@ -99,6 +101,7 @@
             // 
             // flowLayoutPanel1
             // 
+            flowLayoutPanel1.BackColor = Color.FromArgb(158, 161, 212);
             flowLayoutPanel1.Dock = DockStyle.Top;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -113,13 +116,14 @@
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6, Column7, edit });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6, Column7 });
             dataGridView1.GridColor = SystemColors.InactiveCaption;
             dataGridView1.Location = new Point(0, 143);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(1096, 538);
             dataGridView1.TabIndex = 12;
+            
             // 
             // Column1
             // 
@@ -172,15 +176,6 @@
             Column7.MinimumWidth = 6;
             Column7.Name = "Column7";
             // 
-            // edit
-            // 
-            edit.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            edit.HeaderText = "";
-            edit.Image = (Image)resources.GetObject("edit.Image");
-            edit.MinimumWidth = 6;
-            edit.Name = "edit";
-            edit.Width = 24;
-            // 
             // ReturnBook
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -218,6 +213,5 @@
         private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column6;
         private DataGridViewButtonColumn Column7;
-        private DataGridViewImageColumn edit;
     }
 }

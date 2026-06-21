@@ -118,27 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAEdSURBVEhL7ZXhTQMxDEbfCIzQEdigHaEbwAZ0BEboBrBBuwFsABvABrBBq4eSqorudHZ6Qv3R
-        J0U65WJ/sWMncEXcAUvgCXgo387NxgrYAQfgHdiX4bdzL8CiNcqyBX6Bx5HdO/d8tqaLV+BzRKDlHvgG
-        Nu2PKTSIilRMn5GZ6hA6/ym7zGL6PtrJMVzsYfdiCkObVKT7YEsBWSCTWLbhPA/gJvUxib0RCn0ENxkS
-        ujQiKzZ0xvZPuh/OCNuvMyXakG4NS7QnfVZb6HwqRmWXZy5Lo8ja/GGZahhJg2tN2Vfy2jpRxXwKhgSN
-        /K2k2rvR1vB8u8TqU6Cz6sjht86tMNc4LharaGyROIYczSo2xU1sFqpY9rXuolbk/3IE0O9I8CTzbsMA
-        AAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAR1JREFUSEvt
+        leFNAzEMRt8IjNAR2KAdoRvABnQERugGsEG7AWwAG8AGsEGrh5Kqiu50dnpC/dEnRTrlYn+xYydwRdwB
+        S+AJeCjfzs3GCtgBB+Ad2Jfht3MvwKI1yrIFfoHHkd0793y2potX4HNEoOUe+AY27Y8pNIiKVEyfkZnq
+        EDr/KbvMYvo+2skxXOxh92IKQ5tUpPtgSwFZIJNYtuE8D+Am9TGJvREKfQQ3GRK6NCIrNnTG9k+6H84I
+        268zJdqQbg1LtCd9VlvofCpGZZdnLkujyNr8YZlqGEmDa03ZV/LaOlHFfAqGBI38raTau9HW8Hy7xOpT
+        oLPqyOG3zq0w1zguFqtobJE4hhzNKjbFTWwWqlj2te6iVuT/cgTQ70jwJPNuwwAAAABJRU5ErkJggg==
 </value>
   </data>
   <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="btnView.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAANxJREFUSEvl
-        ldENwjAMRG8kRmCDjgQjsAFsAhvABrAJ6KRGqq6X2EoqIcGT3o/rOorrpMC/sgNwAHAVGeOzYfYAngDe
-        gcxhbhcXUzDyrEUiHqZI1rsWq9GzEzXcGfusL6mnWY2rzW/2Mi+oBY2r1RZyTDXZOc1q3GlH/2gSR2XN
-        FTeTOCprrsguxHZk2zy0UEHjzu8ulB2GgsaddhiyfS9o3GnHm2x5YHlfVslcQeVfpHG1eQWRLS5V1kgx
-        8ptotszRs7P0ThT2ObM75oTfJAPHlGeCB3ApY9UR/m0+NJ9c6GpOWsoAAAAASUVORK5CYII=
-</value>
-  </data>
 </root>
